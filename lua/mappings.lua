@@ -1,7 +1,5 @@
-require "nvchad.mappings"
+-- require "nvchad.mappings"
 local keymap = vim.keymap
---desable some keybind (optionale you can remove it if you want)
-keymap.set("n", "<leader>a", "<nop>", { desc = 'close buffer' })
 ---------------- tabs
 --panes controle
 keymap.set("n", "<leader>x", ":bd<CR>", { desc = 'close buffer' })
